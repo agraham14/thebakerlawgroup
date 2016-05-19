@@ -21,11 +21,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<!-- Custom styles for this template -->
-		<link href="jumbotron.css" rel="stylesheet">
-
-		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-		<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+		<link href="css/jumbotron.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -39,113 +36,98 @@
 
 			<header>
 
-
-				<nav class="navbar navbar-default">
-					<div class="container-fluid">
-						<!-- Brand and toggle get grouped for better mobile display -->
+				<!-- Fixed navbar -->
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">The Baker Law Group</a>
+							<a class="navbar-brand" href="#">Project name</a>
 						</div>
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div id="navbar" class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Home</a></li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Services<span class="caret"></span></a>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li role="separator" class="divider"></li>
-										<li><a href="#">Separated link</a></li>
-										<li role="separator" class="divider"></li>
-										<li><a href="#">One more separated link</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
+										<li><a href="#">Text</a></li>
+										<li><a href="#">#</a></li>
 										<li><a href="#">Something else here</a></li>
 										<li role="separator" class="divider"></li>
-										<li><a href="#">Our Wonderful Support Staff</a></li>
-										<li role="separator" class="divider"></li>
-										<li><img src="images/image002.jpg">Debi Garner</li>
 									</ul>
 								</li>
-							</ul>
-							<form class="navbar-form navbar-left" role="search">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Search">
-								</div>
-								<button type="submit" class="btn btn-default">Submit</button>
-							</form>
-							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#contact">Contact</a></li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact US<span class="caret"></span></a>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Email</a></li>
-										<li><a href="#">Phone</a></li>
-										<li><a href="#">Location</a></li>
-
+										<li><a href="pages/jeffBaker.php">Jeff Baker</a></li>
+										<li><a href="pages/renniZifferblatt.php">Renni Zifferblatt</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li role="separator" class="divider"></li>
+										<li class="dropdown-header">Our Awesome Staff</li>
+										<li><a href="pages/staff.php">Debbi</a></li>
+										<li><img src="images/image002.jpg">One more separated link</img></li>
 									</ul>
 								</li>
 							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="../navbar/">Default</a></li>
+								<li><a href="../navbar-static-top/">Static top</a></li>
+								<li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</div>
 				</nav>
 
+				<div class="container">
 
-			<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="jumbotron">
-			<div class="container">
-				<h1>Hello, world!</h1>
-				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-				<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-			</div>
-		</div>
 
-		<div class="container">
-			<!-- Example row of columns -->
-			<div class="row">
-				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<!-- Main jumbotron for a primary marketing message or call to action -->
+				<div class="jumbotron">
+					<div class="container">
+						<h1>The Baker Law Group</h1>
+						<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+					</div>
 				</div>
-				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div>
-				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div>
-			</div>
 
-			<hr>
+				<div class="container">
+					<!-- Example row of columns -->
+					<div class="row">
+						<div class="col-md-4">
+							<h2>Heading</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+							<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+						</div>
+						<div class="col-md-4">
+							<h2>Heading</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+							<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+						</div>
+						<div class="col-md-4">
+							<h2>Heading</h2>
+							<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+							<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+						</div>
+					</div>
 
-			<footer>
-				<p>&copy; 2015 Company, Inc.</p>
-			</footer>
-		</div> <!-- /container -->
+					<hr>
+
+					<footer>
+						<p>&copy; 2015 Company, Inc.</p>
+					</footer>
+				</div> <!-- /container -->
 
 
-		<!-- Bootstrap core JavaScript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-		<script src="../../dist/js/bootstrap.min.js"></script>
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+				<!-- Bootstrap core JavaScript
+				================================================== -->
+				<!-- Placed at the end of the document so the pages load faster -->
+				<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<!-- Include all compiled plugins (below), or include individual files as needed -->
+				<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
