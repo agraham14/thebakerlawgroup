@@ -1,17 +1,20 @@
 
 
 /* visual styles */
-body{
-	margin:0;
-	font-family:sans-serif;
-	font-size: 1em;
 
+main{
 	text-align:center;
-	background-image: url("https://unsplash.com/photos/TZCehSn-T-o");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
 
+	/* ie8- graceful degradation */
+}
+.header{
+	margin-bottom: 0;
+	background-color: red;
+	background-position: 0 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: black;
+}
 h1 {
 	font-family: "monospace";
 }

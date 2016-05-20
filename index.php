@@ -11,17 +11,16 @@
 		<title>Jumbotron Template for Bootstrap</title>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 
 		<!-- Custom styles for this template -->
-		<link href="css/jumbotron.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css"  href="css/jumbotron.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -30,14 +29,14 @@
 		<![endif]-->
 	</head>
 
-	<body class="sfooter">
-		<div class="sfooter-content">
-
+	<body class="sfooter ">
+	<div class="jumbotron">
 			<header>
 
 				<!-- Fixed navbar -->
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="container">
+						<div class="header clearfix">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>
@@ -46,6 +45,7 @@
 								<span class="icon-bar"></span>
 							</button>
 							<a class="navbar-brand" href="#">The Baker Law Group</a>
+						</div>
 						</div>
 						<div id="navbar" class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
@@ -59,7 +59,7 @@
 										<li role="separator" class="divider"></li>
 									</ul>
 								</li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#">Contact</a></li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
 									<ul class="dropdown-menu">
@@ -75,37 +75,37 @@
 							</ul>
 
 						</div><!--/.nav-collapse -->
-					</div>
-				</nav>
+
+	</div>			</nav>
 </header>
-				<div class="container">
+				<div class="container ">
 
 <main>
 
 
 	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-		<div class="container">
+
+		<div class="container well well-lg">
 			<h1>The Baker Law Group</h1>
-			<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+			<p class="lead">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
 			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
 		</div>
-	</div>
+
 
 	<div class="container">
 		<!-- Example row of columns -->
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4  well well-sm">
 				<h2>Heading</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p class="lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 well well-sm">
 				<h2>Heading</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p class="lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 well well-sm">
 				<h2>Heading</h2>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -113,8 +113,7 @@
 		</div>
 
 		<hr>
-	<!-- include jQuery -->
-	<script src="js/js.js"></script>
+
 
 
 </main>
@@ -124,13 +123,13 @@
 						</div>
 					</footer>
 				</div> <!-- /container -->
-
+	</div>
 
 				<!-- Bootstrap core JavaScript
 				================================================== -->
 				<!-- Placed at the end of the document so the pages load faster -->
 				<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<script src="js/jquery.min.js"></script>
 				<!-- Include all compiled plugins (below), or include individual files as needed -->
 				<script src="js/bootstrap.min.js"></script>
 	</body>
