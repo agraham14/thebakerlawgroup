@@ -7,7 +7,6 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" href="../../favicon.ico">
 
 		<title>Jumbotron Template for Bootstrap</title>
 
@@ -83,56 +82,41 @@
 
 <main>
 
+
+	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="jumbotron">
 		<div class="container">
-
 			<h1>The Baker Law Group</h1>
 			<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
 		</div>
 	</div>
-</div>
 
-	<section class="not-fullscreen">
-		<div class="content-a">
-			<div class="content-b">
-					<h2>Heading</h2>
-
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div>
-
-					<h2>Heading</h2>
-
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div>
-
-					<h2>Heading</h2>
-
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div>
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
-				<div class="fullscreen background parallax" style="background-image:url('http://www.minimit.com/images/picjumbo.com_DSC_3274.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100" data-oriz-pos="100%">
-					<div class="content-a">
-						<div class="content-b">
-							Centered content
-						</div>
-					</div>
-				</div>
-
-				<section class="fullscreen">
-					<div class="content-a">
-						<div class="content-b">
-							Centered content
-						</div>
-					</div>
-				</section>
-			<hr>
+			<div class="col-md-4">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			</div>
+			<div class="col-md-4">
+				<h2>Heading</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			</div>
 		</div>
-	</div>
-</div>
-					<
+
+		<hr>
+	<!-- include jQuery -->
+	<script src="js/js.js"></script>
+
+
 </main>
 					<footer>
 						<div class="container-fluid">
