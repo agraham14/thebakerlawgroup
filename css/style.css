@@ -12,6 +12,9 @@ html, body {
 	/* give this to all tags from html to .fullscreen */
 	height:100%;
 }
+#bs-example-navbar-collapse-1{
+	background-color: #e74c3c;
+}
 .fullscreen,
 .content-a {
 	width:100%;
@@ -48,4 +51,5 @@ section {
 	background:#9ed100;
 }
 .not-fullscreen {
-	height:50%;
+	height: 50%;
+}

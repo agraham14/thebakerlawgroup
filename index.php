@@ -69,6 +69,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="/">Home</a></li>
+						<li><a href="/">Contact</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								aria-expanded="false">About Us <span class="caret"></span></a>
@@ -84,11 +85,14 @@
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								aria-expanded="false">Services <span class="caret"></span></a>
+								aria-expanded="false">Practice Areas<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="http://www.barefoottherapeutics.com">BareFootTherapeutics.com</a></li>
-								<li><a href="https://www.linkedin.com/in/arlene-graham-a4181966">LinkedIn</a></li>
-								<li><a href="https://reddit.com/r/softwaregore">REddit</a></li>
+								<li><a href="#">Administrative</a></li>
+								<li><a href="#">Arbitration | Mediation</a></li>
+								<li><a href="#">Commercial Litigation</a></li>
+								<li><a href="#">Employment</a></li>
+								<li><a href="#">Environmental</a></li>
+								<li><a href="#">Products, Civil and Liability</a></li>
 							</ul>
 						</li>
 					</ul>
