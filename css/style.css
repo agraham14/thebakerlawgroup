@@ -1,7 +1,13 @@
 
 
 /* visual styles */
-
+html{
+	background: url("/images/mountains.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 main{
 	text-align:center;
 
@@ -9,12 +15,10 @@ main{
 }
 .header{
 	margin-bottom: 0;
-	background-color: red;
-	background-position: 0 25%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: black;
+
 }
+
+
 h1 {
 	font-family: "monospace";
 }
